@@ -22,11 +22,11 @@ h6 {
 
 /*------Color-Vars------*/
 :root {
-  --primary-main-container: hsl(0,0%,100%); /*---Background Color Main Container---*/
-  --prep-heading: hsl(332, 51%, 32%); /*---Prep-Time Heading---*/
-  --section-headings: hsl(14, 45%, 36%); /*---<h2> Headings---*/
-  --text-highlighted: hsl(30, 10%, 34%); /*---Highlighted-Text---*/
-  --text-color-standard: hsl(30, 10%, 34%); /*---Standard textcolor---*/
+  --primary-main-container: hsl(0,0%,100%); /*------Background Color Main Container------*/
+  --prep-heading: hsl(332, 51%, 32%); /*------Prep-Time Heading------*/
+  --section-headings: hsl(14, 45%, 36%); /*------<h2> Headings------*/
+  --text-highlighted: hsl(30, 10%, 34%); /*------Highlighted-Text------*/
+  --text-color-standard: hsl(30, 10%, 34%); /*------Standard textcolor------*/
   
 --footer-background: hsl(24, 5%, 18%);
 
