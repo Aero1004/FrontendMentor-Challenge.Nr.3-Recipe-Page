@@ -1,34 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Frontend Mentor | Recipe page</title>
-  </head>
-  <body>
-    <main id="main">
-      <div class="page-wrapper">
+<main id="main">
   <!--Recipe-Section-->
   <section class="recipe-container">
     <img
       src="/assets/images/image-omelette.jpeg"
       alt="Omlette-Wrap filled with spinach" />
-    <h1 class="recipe__title">Simple Omlette Recipe</h1>
+    <h1 class="recipe__title">Simple Omlette <br> Recipe</h1>
     <p class="recipe__description">
       An easy and quick dish, perfect for any <br> meal. This classic omelette
       combines beaten eggs cooked to perfection, optionally filled with your
       choice of cheese, vegetables, or meats.
     </p>
-<!------Preptime-Container------>
+
     <article id="prep-container">
       <p class="prep__title">Preparation time</p>
       <ul class="prep__list">
@@ -43,7 +25,7 @@
         </li>
       </ul>
     </article>
-<!------Incredients-Container------>
+
     <article id="ingr-container">
       <h2 class="ingr__heading">Ingredients</h2>
       <ul class="ingr__list">
@@ -58,7 +40,7 @@
       <hr class="divider" />
     </article>
 
-    <!------ Instruction-Container ------>
+    <!-- Instruction Section (integriert) -->
     <section id="instr-container">
       <h2 class="instr__heading">Instructions</h2>
       <ol class="instr__list">
@@ -90,15 +72,15 @@
           <span class="text-highlighted">Enjoy:</span> Serve hot, with additional salt
           and pepper if needed.
         </li>
-        <hr class="divider" />
       </ol>
+      <hr class="divider" />
     </section>
 
-    <!------ Nutrition-Container------>
+    <!-- Nutrition Section (integriert) -->
     <aside id="nutr-container">
       <h2 class="nutr__heading">Nutrition</h2>
       <p class="nutr__description">
-        The table below shows nutritional values <br> per serving without the
+        The table below shows nutritional values per serving without the
         additional fillings.
       </p>
       <table class="nutr__table">
@@ -121,13 +103,4 @@
       </table>
     </aside>
   </section>
-  </div>
 </main>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </body>
-</html>
